@@ -82,7 +82,7 @@ abstract class MainActivity : AppCompatActivity() {
                     return@setOnClickListener
                 }
                 mBtAdapter.disable()
-                Toast.makeText(this, "Bluetooth has been disabled", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Bluetooth has been disconected", Toast.LENGTH_LONG).show()
             }
         }
 
